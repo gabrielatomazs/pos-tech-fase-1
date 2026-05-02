@@ -49,18 +49,6 @@ A análise foi desenvolvida como parte de uma pós-graduação, com foco em iden
 
 ---
 
-## 🗂️ Estrutura dos Dados
-
-O projeto utiliza as seguintes tabelas principais:
-
-* `orders` → informações dos pedidos (datas, status)
-* `order_items` → itens do pedido (preço, frete)
-* `customers` → localização do cliente
-* `products` → dados dos produtos
-* `sellers` → localização dos vendedores
-
----
-
 ## ⚙️ Tecnologias Utilizadas
 
 * Python (PySpark)
@@ -68,69 +56,17 @@ O projeto utiliza as seguintes tabelas principais:
 * Microsoft Fabric (Notebooks)
 * GitHub (versionamento)
 
----
-
-## 🔄 Pipeline de Dados
-
-1. **Ingestão de dados**
-
-   * Leitura dos arquivos CSV via PySpark
-
-2. **Tratamento**
-
-   * Filtro de pedidos entregues
-   * Padronização de dados
-   * Tratamento de inconsistências
-
-3. **Transformação**
-
-   * Join entre tabelas (`orders`, `order_items`, `products`)
-   * Criação de métricas:
-
-     * tempo de entrega
-     * frete total por pedido
-     * relação frete/valor do pedido
-
-4. **Agregação**
-
-   * Consolidação no nível de pedido
-   * Cálculo de métricas por região
-
-5. **Visualização**
-
-   * Construção de dashboard no Power BI
-
----
-
-## 📊 Exemplos de Métricas
-
-* Tempo médio de entrega por região
-* Frete médio por pedido
-* Distribuição de pedidos por faixa de valor
-* Ticket médio por categoria
-* Relação entre frete e volume de vendas
-
----
-
-## 📎 Acesso ao Projeto
-
-* 📄 Relatório completo: *(inserir link)*
-* 🎥 Vídeo de apresentação: *(inserir link)*
-* 📊 Dashboard Power BI: *(inserir link)*
-
----
-
 ## 📚 Fonte dos Dados
 
 OLIST. Brazilian E-Commerce Public Dataset.
 Disponível em: https://www.kaggle.com/datasets/olistbr/brazilian-ecommerce
-Acesso em: 02 maio 2026.
+Acesso em: 20 abril 2026.
 
 ---
 
 ## 👨‍💻 Autor
 
-Projeto desenvolvido por **[Seu Nome]** como parte de atividade acadêmica.
+Projeto desenvolvido por Gabriela Victória Tomaz Silva da Cruz e Giulia Ribeiro Santoro como parte de atividade acadêmica.
 
 ---
 
