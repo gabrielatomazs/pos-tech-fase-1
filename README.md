@@ -64,6 +64,11 @@ Acesso em: 20 abril 2026.
 
 ---
 
+## Como executar localmente
+1. Clone o repositório e coloque os arquivos do dataset no caminho esperado pelos notebooks (ou ajuste as leituras de arquivo).
+2. Crie um ambiente Python com as dependências usadas nos notebooks (PySpark, pandas, etc., conforme imports).
+3. Abra os .ipynb no Jupyter, VS Code ou Fabric e execute as células em ordem.
+
 ## 👨‍💻 Autor
 
 Projeto desenvolvido por Gabriela Victória Tomaz Silva da Cruz e Giulia Ribeiro Santoro como parte de atividade acadêmica.
