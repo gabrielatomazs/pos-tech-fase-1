@@ -9,6 +9,14 @@ A análise foi desenvolvida como parte de uma pós-graduação, com foco em iden
 
 ---
 
+## 📄 Relatório Completo
+
+A análise detalhada, incluindo metodologia, tratamento dos dados, indicadores, visualizações e interpretação dos resultados, está disponível no documento em PDF anexado neste repositório.
+
+O relatório apresenta de forma aprofundada as etapas de construção do projeto e as conclusões obtidas a partir dos dados analisados.
+
+--
+
 ## 🎯 Objetivos
 
 * Avaliar a eficiência logística da operação
